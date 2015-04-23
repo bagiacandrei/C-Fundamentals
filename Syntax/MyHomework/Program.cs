@@ -46,7 +46,7 @@ namespace MyHomework
                 throw new NegativeLeaveDays("Numarul de zile ramase nu poate fi mai mare decat durata concediului");
             SubstractDays(x.getduration());
             x.Setemploye(this);
-
+              
         }
     }
    sealed class Leave
