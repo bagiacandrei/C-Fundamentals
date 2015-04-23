@@ -59,7 +59,6 @@ namespace MyHomework
         public Employee emp ;
 
        
-       
         public Leave(DateTime StartingDate,int Duration,string LeaveType)
         {
             this.startingDate = StartingDate;
