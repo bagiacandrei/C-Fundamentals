@@ -7,7 +7,7 @@
     {
         static void Main(string[] args)
         {            
-            Console.WriteLine("Sun = {0}", (int)DaysEnum.Sun);
+            Console.WriteLine("Sun = " +(int)DaysEnum.Sun);
             Console.WriteLine("Mon = {0}", (int)DaysEnum.Mon);
             Console.WriteLine("Tue = {0}", (int)DaysEnum.Tue);
             Console.WriteLine("Wed = {0}", (int)DaysEnum.Wed);
@@ -23,7 +23,9 @@
             Console.WriteLine("\n\nWorking days:");
             foreach (DaysEnum day in list)
             {
-                Console.WriteLine(Enum.GetName(typeof(DaysEnum), day));
+                if(day==DaysEnum.Wed)
+
+                    Console.WriteLine(Enum.GetName(typeof(DaysEnum), day));
             }
             Console.ReadKey();
 

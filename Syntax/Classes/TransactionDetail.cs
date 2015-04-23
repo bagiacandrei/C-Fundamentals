@@ -1,13 +1,13 @@
 ﻿namespace Classes
 {
-    public class TransactionDetail
+    public partial class TransactionDetail
     {
         public decimal? Amount;
         internal decimal? Tax;
         internal int? Currency;
         public bool? IsValid;
         const string Type = "Transaction";
-
+        private string mesaj="sda";
         public override string ToString()
         {
             /*

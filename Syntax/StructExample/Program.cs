@@ -31,7 +31,7 @@ namespace StructExample
          * 
          * Struct members cannot be declared as protected because structs do not support inheritance.
          */
-
+        
         public Complex(double real, double imaginar)
         {
             this.Real = real;
@@ -80,7 +80,7 @@ namespace StructExample
             Console.WriteLine(z2.ToString());
             Console.WriteLine("Modulul: {0}", z2.Modul);
             Console.ReadKey();
-
+            //DateTime? date=null; trebuie sa aiba semnul intrebarii ca sa nu dea eraore
         }
     }
 }

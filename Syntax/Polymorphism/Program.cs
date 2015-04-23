@@ -6,7 +6,7 @@ namespace Polymorphism
     {
         static void Main(string[] args)
         {
-            Animal duck=new Duck();
+           /* Animal duck=new Duck();
             Duck duck2= new Duck();
             Console.WriteLine("duck 1 walking:");
             duck.Walk();
@@ -32,6 +32,7 @@ namespace Polymorphism
             Console.WriteLine("Cat's age:");
             Console.WriteLine(cat.Age);
             Console.ReadLine();
+           */
         }
     }
 }

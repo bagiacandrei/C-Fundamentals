@@ -6,6 +6,7 @@ namespace Exceptions
     {
         static void CatchException(string tellMeSomething)
          {
+
             try
             {
                 var length = tellMeSomething.Length;
@@ -15,8 +16,11 @@ namespace Exceptions
                 bool isThisBoolean = Boolean.Parse(tellMeSomething);
 
                 Console.WriteLine(isThisBoolean);
+                throw new NullReferenceException();
+               
             }
-            
+
+
              catch (NullReferenceException)
              {
                
@@ -38,15 +42,17 @@ namespace Exceptions
         {
             System.IO.FileStream file = null;
             System.IO.FileInfo fileinfo = new System.IO.FileInfo("D:\\file.txt");
+            
             try
             {
+                
                 file = fileinfo.OpenWrite();
                 file.WriteByte(0xF);
             }
-            catch(Exception ex)
+           /*catch(Exception ex)
             {
                 Console.WriteLine(ex);
-            }
+            }*/
             finally
             {
                 if (file != null)
@@ -58,13 +64,13 @@ namespace Exceptions
 
         static void Main(string[] args)
         {
-            var x = Console.ReadLine();
+            string x =null;
 
-            if (x.StartsWith("a"))
+          /*  if (x.StartsWith("a"))
             {
                 throw new MyCustomException("Well, something went wrong");
-            }
-            //CatchException(x);
+            }*/
+            CatchException(x);
             //CatchException(null);
             //FileExeption();
             Console.ReadLine();

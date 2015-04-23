@@ -55,4 +55,9 @@
             Console.ReadKey();
         }
     }
+
+    public partial class TransactionDetail
+    {
+        void Execute() { Console.WriteLine(mesaj); }
+    }
 }
