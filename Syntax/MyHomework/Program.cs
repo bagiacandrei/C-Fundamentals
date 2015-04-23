@@ -47,7 +47,6 @@ namespace MyHomework
             SubstractDays(x.getduration());
             x.Setemploye(this);
 
-            
         }
     }
    sealed class Leave
