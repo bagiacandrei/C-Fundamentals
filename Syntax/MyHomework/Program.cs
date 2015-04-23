@@ -81,7 +81,7 @@ namespace MyHomework
    
     class Program
     {   
-
+         
         static void Main(string[] args)
         {
             DateTime birth = new DateTime(1980, 1, 18);
