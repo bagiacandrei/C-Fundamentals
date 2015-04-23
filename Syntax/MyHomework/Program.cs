@@ -94,6 +94,6 @@ namespace MyHomework
             empl.AddnewLeave(plecare);
             empl.DisplayInfo();
             
-        }
+        } 
     }
 }
