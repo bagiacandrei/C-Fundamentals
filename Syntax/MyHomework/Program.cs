@@ -90,7 +90,7 @@ namespace MyHomework
             
             Employee empl = new Employee("Popecu", "Ion", birth,employment, 300, 20);
             empl.DisplayInfo();
-            Leave plecare = new Leave(starting, 21, "holiday");
+            Leave plecare = new Leave(starting, 15, "holiday");
             empl.AddnewLeave(plecare);
             empl.DisplayInfo();
 
