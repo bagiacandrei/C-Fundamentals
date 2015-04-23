@@ -48,7 +48,6 @@ namespace MyHomework
             x.Setemploye(this);
 
             
-
         }
     }
    sealed class Leave
