@@ -93,8 +93,6 @@ namespace MyHomework
             Leave plecare = new Leave(starting, 15, "holiday");
             empl.AddnewLeave(plecare);
             empl.DisplayInfo();
-
-            
         } 
     }
 }
