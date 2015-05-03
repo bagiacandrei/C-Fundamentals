@@ -41,7 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Employee.cs" />
+    <Compile Include="Leave.cs" />
+    <Compile Include="LeaveDaysType.cs" />
     <Compile Include="NegativeLeaveDays.cs" />
+    <Compile Include="PeriodLeaveDays.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
